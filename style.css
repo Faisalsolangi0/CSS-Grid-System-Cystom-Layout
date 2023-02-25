@@ -1,0 +1,221 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 5%;
+}
+
+
+#box {
+  border-style: solid;
+  border-color: blue;
+  text-align: center;
+}
+
+#side1 {
+  widows: 30%;
+  border-style: solid;
+  border-color: brown;
+}
+
+#menu {
+  width: 30%;
+  height: 200px;
+  margin-left: 30%;
+  margin-top: 3%;
+  margin-bottom: 5px;
+  border-style: solid;
+  border-color: green;
+  text-align: center;
+
+}
+
+#menu>h3 {
+  color: green;
+}
+
+#content1 {
+  width: 30%;
+  height: 350px;
+  margin-left: 30%;
+  margin-top: 3%;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-color: blueviolet;
+  text-align: center;
+}
+
+#content1>h3 {
+  color: blueviolet;
+}
+
+#simple {
+  width: 90%;
+  height: 20%;
+  border-style: solid;
+  border-color: gray;
+  text-align: center;
+}
+
+#img {
+  width: 20%;
+  height: 40%;
+  border-style: solid;
+  border-color: red;
+  margin-left: 15%;
+  margin-top: 18%;
+  text-align: center;
+}
+
+#img>h4 {
+  color: red;
+}
+
+#content2 {
+  margin-top: 20%;
+  text-align: center;
+  margin-left: 20%;
+  color: red;
+}
+
+#login {
+  width: 30%;
+  height: 200px;
+  margin-left: 30%;
+  margin-top: 3%;
+  border-style: solid;
+  border-color: orange;
+  text-align: center;
+}
+
+#content3 {
+  width: 30%;
+  height: 350px;
+  margin-left: 30%;
+  margin-top: 3%;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-color: blueviolet;
+  text-align: center;
+}
+
+#content3>h3 {
+  color: blueviolet;
+
+}
+
+#simple {
+  width: 100%;
+  height: 20%;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+#img {
+  width: 20%;
+  height: 40%;
+  border-style: solid;
+  border-color: red;
+  margin-left: 15%;
+  margin-top: 18%;
+}
+
+#side2 {
+  widows: 30%;
+  border-style: solid;
+  border-color: brown;
+}
+
+#form {
+  width: 100%;
+  border-style: solid;
+  border-color: powderblue;
+
+}
+
+#footer {
+  width: 100%;
+  height: 20%;
+  border-style: solid;
+  border-color: purple;
+  text-align: center;
+}
+
+#footer>h3 {
+  color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Grid System */
+
+.col-1 {
+  width: 8.33%;
+  float: left;
+}
+
+.col-2 {
+  width: 16.66%;
+  float: left;
+}
+
+.col-3 {
+  width: 25%;
+  float: left;
+}
+
+.col-4 {
+  width: 33.33;
+  float: left;
+}
+
+.col-5 {
+  width: 41.66;
+  float: left;
+}
+
+.col-6 {
+  width: 50%;
+  float: left;
+}
+
+.col-7 {
+  width: 58.33%;
+  float: left;
+}
+
+.col-8 {
+  width: 66.66%;
+  float: left;
+}
+
+.col-9 {
+  width: 75%;
+  float: left;
+}
+
+.col-10 {
+  width: 83.33%;
+  float: left;
+}
+
+.col-11 {
+  width: 91.66%;
+  float: left;
+}
+
+.col-12 {
+  width: 100%;
+  float: left;
+}
